@@ -4,3 +4,4 @@ pub mod staircase;
 pub mod mini_max_sum;
 pub mod birthday_cake_candles;
 pub mod time_conversion;
+pub mod grading;

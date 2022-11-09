@@ -12,6 +12,7 @@ fn main() {
         "mini_max_sum" => hacker_rank::mini_max_sum::main(),
         "birthday_cake_candles" => hacker_rank::birthday_cake_candles::main(),
         "time_conversion" => hacker_rank::time_conversion::main(),
+        "grading" => hacker_rank::grading::main(),
         
         _ => println!("Please specify problem name."),
     }
