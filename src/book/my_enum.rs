@@ -23,22 +23,4 @@ pub fn main() {
 
     print_option(none);
     print_option(some);
-
-    println!("{}", ctoi('8'))
-}
-
-pub fn ctoi(c: char) -> u8 {
-    match c {
-        '0' => 0,
-        '1' => 1,
-        '2' => 2,
-        '3' => 3,
-        '4' => 4,
-        '5' => 5,
-        '6' => 6,
-        '7' => 7,
-        '8' => 8,
-        '9' => 9,
-        _ => panic!("Not a Number!!!!! Go to the hell!!")
-    }
 }

@@ -10,19 +10,6 @@ impl Rectangle {
   }
 }
 
-enum Coin {
-  Penny,
-  Nickel,
-  Dime,
-  Quarter,
-}
-
-// fn value_in_cents(coin: Coin) -> u8 {
-//   match coin {
-//     Penny
-//   }
-// }
-
 pub fn main() {
   let scale = 2;
   let rect = Rectangle {
