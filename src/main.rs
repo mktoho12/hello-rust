@@ -1,4 +1,6 @@
 mod hacker_rank;
+mod book;
+mod masa_u;
 
 use std::env;
 
@@ -13,6 +15,11 @@ fn main() {
         "birthday_cake_candles" => hacker_rank::birthday_cake_candles::main(),
         "time_conversion" => hacker_rank::time_conversion::main(),
         "grading" => hacker_rank::grading::main(),
+
+        "book/struct" => book::my_struct::main(),
+        "book/enum" => book::my_enum::main(),
+
+        "masa_u/digits" => masa_u::digits::main(),
         
         _ => println!("Please specify problem name."),
     }
