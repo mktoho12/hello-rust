@@ -1,6 +1,7 @@
 mod hacker_rank;
 mod book;
 mod masa_u;
+mod getting_started;
 
 use std::env;
 
@@ -20,6 +21,8 @@ fn main() {
         "book/enum" => book::my_enum::main(),
 
         "masa_u/digits" => masa_u::digits::main(),
+
+        "getting_started" => getting_started::hello_world::main(),
         
         _ => println!("Please specify problem name."),
     }
