@@ -23,6 +23,7 @@ fn main() {
         "masa_u/digits" => masa_u::digits::main(),
 
         "getting_started" => getting_started::hello_world::main(),
+        "first_crate" => getting_started::first_crate::main(),
         
         _ => println!("Please specify problem name."),
     }
